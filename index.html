@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
 </head>
-
+<!--Starting here is the header (and nav) I used for all 3 pages-->
 <body style="font-size: 18px; line-height: 34px; color: #777777; background: url(assets/images/concrete_seamless.png);">
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
+   
+   
+    <nav id="NavBar" style="backkground-color: white;" class="navbar navbar-default">
+      <div class="container-fluid" style="width: 960px">
            <div class="navbar-header">
                <button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                    <span class="sr-only">Navigation</span>
@@ -21,7 +23,7 @@
                </button>
                <a class="navbar-brand" href="index.html" style= "Font-family: Georgia, Times, Times New Roman, serif; Font-weight: 700; background-color: #4aaaa5; color:#ffffff; font-size: 30px">Andrew Duong</a>
            </div>
-        
+                                
          <div class="collapsed navbar-collapse" id="bs-example-navbar-collapse-1">
              <ul class="nav navbar-nav navbar-right">
                  <li class="active"><a href="index.html">About<span class="sr-only">(current)</span></a></li>
@@ -30,39 +32,38 @@
              </ul>
          </div>  
       </div>
-    </nav>
+    </nav><!--Header ends here-->
 
-    <div class="container" style="padding-top: 130px; min-height: calc(100vh - 70px); align-content: center">
-        <div class="row">
-            <div class="col-md-8 well">
+    <!--Beginning of where I begin writing my Bootstrap code for my about me section-->
+    <div class="container" style="padding: 20px; width: 960px; background-color: white;">
+     
+ 
                 <div class="frontHead">
                     <h1 style="Font-family: Georgia, Times, Times New Roman serif; Font-weight: 700; color: #4aaaa5;">About Me:</h1>
-                </div>
-        <div class="row">
-            <div class="col-sm-4 col-md-4">
-                <img class="img-thumbnail pull-left" src="assets/images/IMG_4124.PNG.jpeg" alt="Superman" style="height:300px; width: 250px; display: block; margin-left: auto; margin-right: auto; border-radius: 50%;">
-            </div>
-        </div>
-            <div class="col-sm-8 col-md-8">
-                    <p style="float: right">My name is Andrew Duong. I am a Vietnamese-American who was born in San Jose and graduated from San Jose State University with MIS major and CS minor. On my free time, I enjoy spending time alone along with my family and friends in creating fond memories! Having overall 7.5 years of experience in TaeKwonDo, I enjoy anything the requires the body to move! Fishing and coastal foraging along the Pacific coast is something I will never get tired of as well! Even though I graduated in MIS, I plan on becoming a web developer and hone my skills on the coding end after completing this UCB Coding Bootcamp!</p>
-                </div>
-            </div>
-        </div>
-
     
+                            <hr>
+                         <img class="img-thumbnail pull-left" src="assets/images/IMG_4124.PNG.jpeg" alt="Superman" style="height:300px; width: 250px; display: block; margin-left: auto; margin-right: auto; border-radius: 50%; float: left;">
+ 
     
-
+                    <p style="float: left;">My name is Andrew Duong. I am a Vietnamese-American who was born in San Jose and graduated from San Jose State University with MIS major and CS minor. On my free time, I enjoy spending time alone along with my family and friends in creating fond memories! Having overall 7.5 years of experience in TaeKwonDo, I enjoy anything the requires the body to move! Fishing and coastal foraging along the Pacific coast is something I will never get tired of as well! Even though I graduated in MIS, I plan on becoming a web developer and hone my skills on the coding end after completing this UCB Coding Bootcamp!</p>
+                </div>
+         
+        </div>
 
 
     </body>
 
-    <footer style="  padding: 30px 0; clear: both; font-size: 12px; color: #ffffff; color: #cccccc; text-align: center; background: #666666; border-top: 8px solid #4aaaa5; height: 50px;">
+
+    <!---Footer I used for all 3 pages begins here:-->
+
+    <footer style="  padding: 70px 0; clear: both; font-size: 12px; color: #ffffff; color: #cccccc; text-align: center; background: #666666; border-top: 8px solid #4aaaa5; height: 50px; position: relative; top: 200px;">
         <div class="box">
             <p class="text-center text-muted">
                 Andrew Duong Copyright 2019
             </p>
         </div>
     </footer>
-</div>
+    <!--Where the footer ends-->
+</div> <!--This is where the container function ends-->
 
 </html>

@@ -9,39 +9,39 @@
 </head>
 
 <body style="font-size: 18px; line-height: 34px; color: #777777; background: url(assets/images/concrete_seamless.png);">
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-           <div class="navbar-header">
-               <button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                   <span class="sr-only">Navigation</span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   
-               </button>
-               <a class="navbar-brand" href="index.html" style= "Font-family: Georgia, Times, Times New Roman, serif; Font-weight: 700; background-color: #4aaaa5; color:#ffffff; font-size: 30px">Andrew Duong</a>
-           </div>
-        
-         <div class="collapsed navbar-collapse" id="bs-example-navbar-collapse-1">
-             <ul class="nav navbar-nav navbar-right">
-                 <li class="active"><a href="index.html">About<span class="sr-only">(current)</span></a></li>
-                 <li><a href="contact.html">Contact</a></li>
-                 <li><a href="portfolio.html">Portfolio</a></li>
-             </ul>
-         </div>  
-      </div>
-    </nav>
+    <nav id="NavBar" style="backkground-color: white;" class="navbar navbar-default">
+            <div class="container-fluid" style="width: 960px">
+                 <div class="navbar-header">
+                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                         <span class="sr-only">Navigation</span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         
+                     </button>
+                     <a class="navbar-brand" href="index.html" style= "Font-family: Georgia, Times, Times New Roman, serif; Font-weight: 700; background-color: #4aaaa5; color:#ffffff; font-size: 30px">Andrew Duong</a>
+                 </div>
+                                      
+               <div class="collapsed navbar-collapse" id="bs-example-navbar-collapse-1">
+                   <ul class="nav navbar-nav navbar-right">
+                       <li class="active"><a href="index.html">About</a></li>
+                       <li><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
+                       <li><a href="portfolio.html">Portfolio</a></li>
+                   </ul>
+               </div>  
+            </div>
+          </nav><!--Header ends here-->
 
 
     <div class="container">
         
         <div class="row">
-            <div class="col-md-8- well">
+            <div class="col-md-8- well" style="padding: 100px;">
                 <div class="contactHead">
                         <h1 style="Font-family: Georgia, Times, Times New Roman serif; Font-weight: 700; color: #4aaaa5;">Contact: </h1>
                     </div>
 
-        
+                            <br>
 
 
             <form>
@@ -67,12 +67,17 @@
 
     </body>
 
-    <footer style="  padding: 30px 0; clear: both; font-size: 12px; color: #ffffff; color: #cccccc; text-align: center; background: #666666; border-top: 8px solid #4aaaa5; height: 50px;">
-        <div class="box">
-            <p class="text-center text-muted">
-                Andrew Duong Copyright 2019
-            </p>
-        </div>
-    </footer>
-</div>
-</html>
+
+    <!---Footer I used for all 3 pages begins here:-->
+
+    <footer style="  padding: 70px 0; clear: both; font-size: 12px; color: #ffffff; color: #cccccc; text-align: center; background: #666666; border-top: 8px solid #4aaaa5; height: 50px; position: relative; top: 200px;">
+            <div class="box">
+                <p class="text-center text-muted">
+                    Andrew Duong Copyright 2019
+                </p>
+            </div>
+        </footer>
+        <!--Where the footer ends-->
+    </div> <!--This is where the container function ends-->
+    
+    </html>
