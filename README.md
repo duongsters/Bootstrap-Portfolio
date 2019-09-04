@@ -1,7 +1,7 @@
 # Title: Bootstrap-Portfolio
 
 ## Site Picture:
-![My Site](images/Screenshot.png)
+![My Site](assets/images/Screenshot.png)
 
 ## Technologies Used:
 - HTML: Used to create elements 
